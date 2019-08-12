@@ -10,6 +10,10 @@ _A journaling website that will store entries, along with functions to return th
 
 0. User can write entries including a title and a body. 
     specifics: Create objects to handle the entries, assign ids and all that
+1. List journal entries
+2. Let user click on an entry title to view it
+3. Ability to delete entries
+4. Other functions
 
 ## Setup/Installation Requirements
 
