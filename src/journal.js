@@ -24,8 +24,9 @@ Journal.prototype.findEntry = function(id) {
   return false;
 };
 
-export function Entry(entryString) {
+export function Entry(entryString, entryTitle) {
   this.entryString = entryString;
+  this.entryTitle = entryTitle;
 }
 
 Entry.prototype.numWords = function(){

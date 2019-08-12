@@ -6,10 +6,28 @@
   </head>
   <body>
     <div class="container">
-      <p>TEST</p>
-
+      <h1>Journal</h1>
+      <div class="row">
+        <div class="col-md-6">
+            <form id="entry-form">
+                <div class="form-group">
+                  <label for="entry-text">Write a journal entry:</label>
+                  <br>
+                  <textarea id="entry-text" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <hr>
+              <ul id="entries">
+        
+              </ul>
+        </div>
+      </div>
+      <div id="show-entry"></div>
+      <h4 class="entry-title"></h4>
+      <p class="entry-para"></p>
 
     </div>
-
   </body>
 </html>
